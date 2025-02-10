@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticDiscovery version="1.0">
+  <!-- Publisher Participant -->
+  <Participant>
+    <Name>PublisherParticipant</Name>
+    <MetatrafficUnicastLocatorList>
+      <Locator>
+        <udpv4>
+          <address>172.22.6.219</address>
+          <port>7400</port>
+        </udpv4>
+      </Locator>
+    </MetatrafficUnicastLocatorList>
+  </Participant>
+
+  <!-- Subscriber Participant -->
+  <Participant>
+    <Name>SubscriberParticipant</Name>
+    <MetatrafficUnicastLocatorList>
+      <Locator>
+        <udpv4>
+          <address>172.22.6.119</address>
+          <port>7400</port>
+        </udpv4>
+      </Locator>
+    </MetatrafficUnicastLocatorList>
+  </Participant>
+</StaticDiscovery>

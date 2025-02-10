@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dds>
+  <participant>
+    <rtps>
+      <builtin>
+        <discovery_config>
+          <static_edp_xml_config>StaticDiscovery.xml</static_edp_xml_config>
+        </discovery_config>
+        <metatrafficUnicastLocatorList>
+          <locator>
+            <udpv4>
+              <address>10.42.0.1</address>
+              <port>7400</port>
+            </udpv4>
+          </locator>
+        </metatrafficUnicastLocatorList>
+      </builtin>
+    </rtps>
+  </participant>
+</dds>
